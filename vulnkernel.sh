@@ -3,10 +3,10 @@
 #
 # Copyright (c) 2016-2020, @_mzet_
 #
-# linux-exploit-suggester.sh comes with ABSOLUTELY NO WARRANTY.
-# This is free software, and you are welcome to redistribute it
+# vulnkernel.sh comes with ABSOLUTELY NO WARRANTY.
+# This is free software, and you are welcome to use it
 # under the terms of the GNU General Public License. See LICENSE
-# file for usage of this software.
+# Builder: Mahmoud Ashraf
 #
 
 VERSION=v1.1
@@ -1844,7 +1844,6 @@ parseUname() {
 
 
 
-# from: https://stackoverflow.com/questions/4023830/how-compare-two-strings-in-dot-separated-version-format-in-bash
 verComparision() {
 
     if [[ $1 == $2 ]]
